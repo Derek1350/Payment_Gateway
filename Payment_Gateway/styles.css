@@ -1,0 +1,85 @@
+.main-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,90vh);
+    justify-content: center;
+    gap: 20px;
+}
+.Info{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding: 40px;
+
+}
+.Summary{
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
+#floatingInput{
+    width: 50vh;
+    margin-left: 20px;
+}
+#cart table{
+    width: 50%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 50px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(4){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(5){
+    width: 100px;
+    text-align: center;
+}
+#cart table thead{
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#cart{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+#cart-add .mb-3{
+    width: 500px;
+    margin: 50px 5%;
+}
+#cart-add .sub-total{
+    margin: 50px 50px;
+}
+#cart-add .sub-total table{
+    width: 50%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart-add .sub-total table tr:nth-child(3){
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
